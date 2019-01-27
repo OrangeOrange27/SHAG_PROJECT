@@ -1,0 +1,55 @@
+.first{
+	color: white;
+	height: 93.2vh;
+	background-image: url("../IMAGES/bg1.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.element1{
+	height: inherit;
+	background-image: linear-gradient(to right, #09052f 0%, #311d5e 100%);
+	opacity: 0.85;
+
+	    display: flex;
+    flex-direction: column;
+    justify-content: center;    text-align: center;
+}
+.hello{
+	justify-content: center;
+	font-size: 62px;
+	font-family: "Playfair Display - Black";
+	letter-spacing: 0.32px;
+}
+.simpleText{
+	color: white;
+	font-family: Roboto;
+	font-size: 29px;
+	font-weight: 300;
+	line-height: 30px;
+	letter-spacing: 0.7px;
+		justify-content: center;
+}
+
+.slide{
+	display: none;
+	opacity: 0;
+}
+.current-slide{
+	display: block;
+	opacity: 1;
+}
+
+
+.navbar{
+		background-image: linear-gradient(to right, #09052f 0%, #311d5e 100%);	
+letter-spacing: 0.33px;
+display: flex;
+justify-content: space-between;
+}
+.nav-link{
+	color: white;
+
+}
+.active>.nav-link{
+			color: #00e0d0;
+}
