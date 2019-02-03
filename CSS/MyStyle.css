@@ -1,9 +1,12 @@
 .first{
 	color: white;
-	height: 93.2vh;
 	background-image: url("../IMAGES/bg1.webp");
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+.fullscreen
+{
+		height: 93.2vh;
 }
 .element1{
 	height: inherit;
@@ -21,7 +24,6 @@
 	letter-spacing: 0.32px;
 }
 .simpleText{
-	color: white;
 	font-family: Roboto;
 	font-size: 29px;
 	font-weight: 300;
@@ -45,6 +47,7 @@
 letter-spacing: 0.33px;
 display: flex;
 justify-content: space-between;
+opacity: 0.85;
 }
 .nav-link{
 	color: white;
@@ -52,4 +55,73 @@ justify-content: space-between;
 }
 .active>.nav-link{
 			color: #00e0d0;
+}
+.white{
+		color: white;
+}
+.hh2{
+	color: #413d4b;
+font-family: "Playfair Display";
+font-size: 22px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 1.1px;
+}
+.history
+{
+	opacity: 0.75;
+color: #413d4b;
+font-family: Roboto;
+font-size: 20px;
+font-weight: 300;
+line-height: 22px;
+letter-spacing: 0.42px;
+}
+.second{
+	padding: 5rem;
+}
+.third{
+	background-image: url("../IMAGES/bg2.webp");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.forth{
+		height: 50rem;
+}
+.experience{
+	padding-top: 5.5rem;
+	color: #413d4b;
+font-family: "Playfair Display";
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 1.1px;
+}
+h3{
+	height: 50rem;
+	color: #413d4b;
+font-family: "Playfair Display";
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 1.1px;
+}
+.icon{
+	margin: 0px auto 26px;
+	height: 50px;
+	width: 50px;
+}
+.iconBlock{
+
+}
+.iconH{
+	color: #413d4b;
+font-family: "Roboto - Black";
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 0.7px;
+position: relative;
+}
+.icon1{
+	background-image: url("../IMAGES/icon1.webp");
+		background-repeat: no-repeat;
+	background-size: cover;
 }
