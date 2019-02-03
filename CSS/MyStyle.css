@@ -1,12 +1,13 @@
+
+html
+{
+	scroll-behavior: smooth;
+}
 .first{
 	color: white;
 	background-image: url("../IMAGES/bg1.webp");
 	background-repeat: no-repeat;
 	background-size: cover;
-}
-.fullscreen
-{
-		height: 93.2vh;
 }
 .element1{
 	height: inherit;
@@ -56,9 +57,6 @@ opacity: 0.85;
 .active>.nav-link{
 			color: #00e0d0;
 }
-.white{
-		color: white;
-}
 .hh2{
 	color: #413d4b;
 font-family: "Playfair Display";
@@ -86,7 +84,7 @@ letter-spacing: 0.42px;
 	background-size: cover;
 }
 .forth{
-		height: 50rem;
+		height: 45rem;
 }
 .experience{
 	padding-top: 5.5rem;
@@ -97,20 +95,37 @@ text-transform: uppercase;
 letter-spacing: 1.1px;
 }
 h3{
-	height: 50rem;
+	height: 50rem;	
 	color: #413d4b;
 font-family: "Playfair Display";
 font-weight: 700;
 text-transform: uppercase;
 letter-spacing: 1.1px;
 }
+
+
+.fifth{
+	height: 45rem;
+	background-image: url("../IMAGES/bg3.webp");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+
+
+
+
 .icon{
 	margin: 0px auto 26px;
 	height: 50px;
 	width: 50px;
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 .iconBlock{
-
+	padding-top: 1rem;
 }
 .iconH{
 	color: #413d4b;
@@ -122,6 +137,52 @@ position: relative;
 }
 .icon1{
 	background-image: url("../IMAGES/icon1.webp");
-		background-repeat: no-repeat;
-	background-size: cover;
+}
+.icon2{
+	background-image: url("../IMAGES/icon2.webp");
+}
+.icon3{
+	background-image: url("../IMAGES/icon3.webp");
+}
+.icon4{
+	background-image: url("../IMAGES/icon4.webp");
+}
+.icon5{
+	background-image: url("../IMAGES/icon5.webp");
+}
+.icon6{
+	background-image: url("../IMAGES/icon6.webp");
+}
+.iconText{
+	opacity: 0.75;
+color: #333333;
+font-family: Roboto;
+font-weight: 300;
+line-height: 22px;
+letter-spacing: 0.7px;
+}
+.b-t{
+		border-top: 2px solid darkgray;
+}
+.b-l{
+		border-left: 2px solid darkgray;
+}
+.b-b{
+		border-bottom: 2px solid darkgray;
+}
+.b-r{
+		border-right: 2px solid darkgray;
+}
+.m-t{
+	margin-top: 3rem;
+}
+.fullscreen
+{
+		height: 93.2vh;
+}
+.white{
+		color: white;
+}
+.man{
+	padding: 1rem 3rem 1rem 3rem;
 }
