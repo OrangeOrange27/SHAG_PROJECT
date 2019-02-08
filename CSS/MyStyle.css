@@ -33,17 +33,13 @@ html
 		justify-content: center;
 }
 
-.slide{
+.slideM{
 	display: none;
 	opacity: 0;
 }
 .current-slide{
 	display: block;
 	opacity: 1;
-}
-
-.btns{
-	/*margin-top: 2rem;*/
 }
 
 .nb-btn{	
@@ -177,6 +173,22 @@ border-color: #00e0d0;
 .btn-outline-primary{
 	text-align: center;
 }
+iframe{
+	width: 100vw;
+	height: inherit;
+	opacity: 0;
+}
+.enabledVideo{
+	opacity: 1;
+	transition: opacity 2s;
+}
+#videoButton{
+	width: 156px;
+	height: 150px;
+	margin-top: 20rem;
+	background-image: url("../IMAGES/videoButton.webp");
+	background-repeat: no-repeat;
+}
 .txt4{
 color: #413d4b;
 font-family: "Playfair Display";
@@ -207,7 +219,13 @@ text-align: center;
 padding-top: 15vh;
 padding-bottom: 5vh;
 }
-
+.person{
+	width: 70px;
+}
+.active{
+	display: flex;
+	justify-content: center;
+}
 
 .icon{
 	margin: 0px auto 26px;
