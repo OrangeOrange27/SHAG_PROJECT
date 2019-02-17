@@ -220,7 +220,7 @@ margin: 5rem 0 5rem 0;
 	margin-bottom: 4vh;
 }
 .seven{
-	height: 60vh;
+/*	height: 60vh;*/
 }
 .cit{
 	opacity: 0.85;
@@ -233,9 +233,12 @@ text-align: center;
 padding-top: 15vh;
 padding-bottom: 5vh;
 }
+.pb{
+	padding-bottom: 4rem;
+}
 .person{
 	width: 70px;
-	margin-left: 48%;
+	margin-left: 45%;
 }
 .active{
 	display: flex;
